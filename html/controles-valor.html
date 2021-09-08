@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+    <h3>Libro de visitas</h3>
+<form action="registrardatos.php" method="post">
+  Nombre:
+  <input type="text" name="nombre" size="30"><br>
+  Mail:
+  <input type="text" name="email" size="30"><br>
+  <select name="pais">
+    <option value="1" selected>Seleccione pais</option>
+    <option value="2">España</option>
+    <option value="3">México</option>
+    <option value="4">Guatemala</option>
+    <option value="8">Venezuela</option>
+    <option value="9">Colombia</option>
+    <option value="14">Ecuador</option>
+    <option value="15">Paraguay</option>
+  </select>
+  <br>
+  Valore nuestro sitio
+  <select name="valoracion">
+    <option value="malo">Malo</option>
+    <option value="regular">Regular</option>
+    <option value="bueno" selected>Bueno</option>
+    <option value="muy bueno">Muy Bueno</option>
+    <option value="excelente">Excelente</option>
+  </select>
+  <br>
+  <textarea name="comentarios" rows="5" cols="40">Comentarios:</textarea><br>
+  <input type="submit" value="Enviar">
+</form>
+</body>
+</html>
