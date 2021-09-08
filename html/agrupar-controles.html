@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pizzas</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+<form action="registrardatos.php" method="post">
+  <fieldset>
+    <legend>Seleccionar pizzas</legend>
+    Pizza:
+    <select name="pizza1">
+      <option value="1">Peperoni</option>
+      <option value="2">Queso</option>
+      <option value="3">Pastor</option>
+    </select>
+    Cantidad:
+    <select name="cantidad1">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+    <br>
+    Pizza:
+    <select name="pizza2">
+      <option value="1">Carne</option>
+      <option value="2">Jamon y Queso</option>
+      <option value="3">Jalapeno</option>
+    </select>
+    Cantidad:
+    <select name="cantidad2">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+    
+  </fieldset>
+  <fieldset>
+    <legend>Datos de envio</legend>
+    Nombre:
+    <input type="text" name="nombre" size="30"><br>
+    Dirección:
+    <input type="text" name="direccion" size="30"><br>
+    Teléfono:
+    <input type="text" name="telefono" size="30"><br>
+  </fieldset>
+  <input type="submit" value="Enviar">
+</form>
+</body>
+</html>
