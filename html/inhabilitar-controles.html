@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+    <h2>Controles deshabilitados</h2>
+<form action="registrardatos.php" method="post">
+  Nombre:
+  <input type="text" name="nombre" size="20" disabled>
+  <br>
+  Clave: 
+  <input type="password" name="clave" size="12" disabled>
+  <br>
+  Comentarios:<br>
+  <textarea disabled name="comentarios" rows="5" cols="60">   </textarea>
+  <br>
+  <input type="radio" name="op" value="1" disabled>Opcion 1<br>
+  <input type="radio" name="op" value="2" disabled>Opcion 2<br>
+  <input type="radio" name="op" value="3" disabled>Opcion 3<br>
+  <input type="radio" name="op" value="4" disabled>Opcion 4<br>
+  <br>
+  <input type="checkbox" name="op1" disabled>Opcion 1<br>
+  <input type="checkbox" name="op2" disabled>Opcion 2<br>
+  <input type="checkbox" name="op3" disabled>Opcion 3<br>
+  <input type="checkbox" name="op4" disabled>Opcion 4<br>
+  <br>
+
+  <select name="pais" disabled>
+    <option value="1">México</option>
+    <option value="2">Honduras</option>
+    <option value="3">Venezuela</option>
+    <option value="4">Colombia</option>
+    <option value="5">Cuba</option>
+    <option value="6">Bolivia</option>
+  </select>
+  <br>
+  <button type="submit" disabled>Ingreso al<br>sitio</button>
+  <br>
+  <input type="submit" value="Enviar" disabled>
+</form>
+</body>
+</html>
