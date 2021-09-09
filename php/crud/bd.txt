@@ -1,0 +1,12 @@
+CREATE TABLE `bitacora`(
+	id int() NOT NULL AUTO_INCREMENT,
+    fecha timestamp NOT NULL,
+    actividad varchar(100) NOT NULL,
+    notas text() NOT NULL,
+    primary key(id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+INTERT INTO `bitacora` (`actividad`, `notas`) VALUES
+('GIT Y GITHUB', 'lasnkdasnkdaklndakd'),
+('mysql', 'lsdfsjlfnsljn23232323'),
+('scrum', 'curso udemy');
