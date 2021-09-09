@@ -1,0 +1,61 @@
+#recuadro33{
+    border-radius: 20px;  
+    background-color:#ddd;
+    width:200px;
+    height:100px;
+    padding:8px;
+    -moz-animation-play-state:paused;
+    -moz-animation-name: animacion1;
+    -moz-animation-duration: 4s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+    -webkit-animation-play-state:paused;
+    -webkit-animation-name: animacion1;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -o-animation-play-state:paused;
+    -o-animation-name: animacion1;
+    -o-animation-duration: 4s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-direction: alternate;
+  }
+  
+  #recuadro33:hover {
+    -moz-animation-play-state:running;
+    -webkit-animation-play-state:running;
+    -o-animation-play-state:running;
+  }
+  
+  @-moz-keyframes animacion11 {
+    from {
+      border-radius:0px;
+      background-color:#ddd;
+    }
+    to {
+      border-radius:40px;
+      background-color:#ff0;
+    }
+  }
+  
+  @-webkit-keyframes animacion11 {
+    from {
+      border-radius:0px;
+      background-color:#ddd;
+    }
+    to {
+      border-radius:40px;
+      background-color:#ff0;
+    }
+  }
+  
+  @-o-keyframes animacion11 {
+    from {
+      border-radius:0px;
+      background-color:#ddd;
+    }
+    to {
+      border-radius:40px;
+      background-color:#ff0;
+    }
+  }
