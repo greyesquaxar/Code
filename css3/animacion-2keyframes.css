@@ -1,0 +1,88 @@
+#recuadro34{
+    left:30px;
+    top:30px;
+    position:relative;
+    border-radius: 20px;  
+    background-color:#ddd;
+    width:100px;
+    height:100px;
+    padding:4px;
+    -moz-animation-name: animacion1;
+    -moz-animation-duration: 4s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-name: animacion1;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -o-animation-name: animacion1;
+    -o-animation-duration: 4s;
+    -o-animation-iteration-count: infinite;
+  }
+  
+  @-moz-keyframes animacion6 {
+    0%{
+      left:30px;
+      top:30px;
+    }
+    25%{
+      left:300px; 
+      top:30px;
+    }
+    50%{
+      left:300px;
+      top:200px;   
+    }
+    75%{
+      left:30px;
+      top:200px;
+    }
+    100%{
+      left:30px;
+      top:30px;
+    }
+  }
+  
+  @-webkit-keyframes animacion6 {
+    0%{
+      left:30px;
+      top:30px;
+    }
+    25%{
+      left:300px; 
+      top:30px;
+    }
+    50%{
+      left:300px;
+      top:200px;   
+    }
+    75%{
+      left:30px;
+      top:200px;
+    }
+    100%{
+      left:30px;
+      top:30px;
+    }
+  }
+  
+  @-o-keyframes animacion6 {
+    0%{
+      left:30px;
+      top:30px;
+    }
+    25%{
+      left:300px; 
+      top:30px;
+    }
+    50%{
+      left:300px;
+      top:200px;   
+    }
+    75%{
+      left:30px;
+      top:200px;
+    }
+    100%{
+      left:30px;
+      top:30px;
+    }
+  }
