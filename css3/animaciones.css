@@ -1,0 +1,48 @@
+#recuadro30{
+    left:30px;
+    position:relative;
+    border-radius: 20px;  
+    background-color:#ddd;
+    width:200px;
+    height:100px;
+    padding:4px;
+    -moz-animation-name: animacion1;
+    -moz-animation-duration: 4s;
+    -webkit-animation-name: animacion1;
+    -webkit-animation-duration: 4s;
+    -o-animation-name: animacion1;
+    -o-animation-duration: 4s;
+  }
+  
+  @-moz-keyframes animacion1 {
+    from {
+      left:30px;
+      background-color:#ddd;
+    }
+    to {
+      left:300px; 
+      background-color:#ff0;
+    }
+  }
+  
+  @-webkit-keyframes animacion1 {
+    from {
+      left:30px;
+      background-color:#ddd;
+    }
+    to {
+      left:300px; 
+      background-color:#ff0;
+    }
+  }
+  
+  @-o-keyframes animacion1 {
+    from {
+      left:30px;
+      background-color:#ddd;
+    }
+    to {
+      left:300px; 
+      background-color:#ff0;
+    }
+  }
