@@ -1,0 +1,11 @@
+#recuadro12{
+    -ms-transform: skew(15deg,0deg);
+    -webkit-transform: skew(15deg,0deg);
+    -moz-transform: skew(15deg,0deg);
+    -o-transform: skew(15deg,0deg);
+    transform: skew(15deg,0deg);
+    border-radius: 20px;  
+    background-color:#ddd;
+    width:200px;
+    padding:10px;
+  }
