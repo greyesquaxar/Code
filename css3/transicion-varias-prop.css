@@ -1,0 +1,21 @@
+#recuadro26{
+    border-radius: 20px;  
+    background-color:#ff0;
+    width:200px;
+    padding:10px;
+    transition:width 1s,
+               background-color 8s;
+    -moz-transition:width 1s,
+                   background-color 8s;
+    -ms-transition:width 1s,
+                   background-color 8s;
+    -webkit-transition:width 1s,
+                       background-color 8s;
+    -o-transition:width 1s,
+                  background-color 8s;
+  }
+  
+  #recuadro26:hover{
+    width:300px;
+    background-color: #f00;
+  }
