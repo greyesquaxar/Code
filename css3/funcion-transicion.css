@@ -1,0 +1,16 @@
+#recuadro27{
+    margin: 5px;
+    border-radius: 20px;  
+    background-color:#eee;
+    width:200px;
+    padding:10px;
+    transition:width 2s ease;
+    -moz-transition:width 2s ease;
+    -ms-transition:width 2s ease;
+    -webkit-transition:width 2s ease;
+    -o-transition:width 2s ease;
+  }
+  
+  #recuadro27:hover{
+    width:300px;
+  }
