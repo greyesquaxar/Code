@@ -1,0 +1,16 @@
+#recuadro28{
+    margin:5px;
+    border-radius: 20px;  
+    background-color:#eee;
+    width:200px;
+    padding:10px;
+    transition:width 1s ease 1s;
+    -moz-transition:width 1s ease 1s;
+    -ms-transition:width 1s ease 1s;
+    -webkit-transition:width 1s ease 1s;
+    -o-transition:width 1s ease 1s;
+  }
+  
+  #recuadro28:hover{
+    width:300px;
+  }
