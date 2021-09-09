@@ -1,0 +1,14 @@
+#recuadro22{
+    background-image:    url("logo.png"), 
+                         url("logo.png"), 
+                         url("logo.png"), 
+                         url("logo.png"), 
+                         url("bk.png");
+    background-position: 0% 0%,
+                         100% 0%,
+                         0% 100%,
+                         100% 100%;
+    background-repeat: no-repeat;
+    width:700px;
+    height:450px;
+ }
