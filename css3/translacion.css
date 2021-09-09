@@ -1,0 +1,12 @@
+#recuadro11{
+    -ms-transform: translate(25px,10px);
+    -webkit-transform: translate(25px,10px);
+    -moz-transform: translate(25px,10px);
+    -o-transform: translate(25px,10px);
+    transform: translate(25px,10px);
+  
+    border-radius: 20px;  
+    background-color:#ddd;
+    width:200px;
+    padding:10px;
+  }
